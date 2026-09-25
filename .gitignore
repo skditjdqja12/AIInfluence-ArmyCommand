@@ -1,0 +1,12 @@
+# build output
+bin/
+obj/
+build/
+dist/
+*.user
+.vs/
+
+# never commit decompiled third-party code or game binaries
+_decomp/
+*.dll
+*.pdb

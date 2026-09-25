@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<base type="string">
+  <tags>
+    <tag language="한국어" />
+  </tags>
+  <strings>
+    <string id="aiac_incompatible" text="AI Influence - Army Command: 지원하지 않는 AI Influence 버전입니다. 군대 명령 기능이 꺼집니다." />
+    <string id="aiac_type_siege" text="포위 공격" />
+    <string id="aiac_type_defend" text="방어" />
+    <string id="aiac_type_patrol" text="순찰" />
+    <string id="aiac_created" text="{LEADER}이(가) 군대를 창설했습니다. 목표: {TARGET} ({TYPE}), 소집 {COUNT}개 부대" />
+    <string id="aiac_retarget" text="{LEADER}의 군대가 새 목표를 받았습니다: {TARGET} ({TYPE})" />
+    <string id="aiac_spawned_party" text="{LEADER}이(가) {SETTLEMENT}에서 부대를 새로 꾸렸습니다." />
+    <string id="aiac_err_unavailable" text="{LEADER}은(는) 지금 군대를 이끌 수 없는 상태입니다." />
+    <string id="aiac_err_no_kingdom" text="{LEADER}은(는) 왕국에 속하지 않아 군대를 만들 수 없습니다." />
+    <string id="aiac_err_other_party" text="{LEADER}은(는) 다른 부대 소속이라 군대를 이끌 수 없습니다." />
+    <string id="aiac_err_other_army" text="{LEADER}은(는) 다른 군대에 소속되어 있어 새 군대를 이끌 수 없습니다." />
+    <string id="aiac_err_target_missing" text="{LEADER}: 목표 거점을 찾을 수 없습니다 ({TOKEN})." />
+    <string id="aiac_err_not_siegeable" text="{TARGET}은(는) 포위할 수 있는 도시나 성이 아닙니다." />
+    <string id="aiac_err_not_at_war" text="{LEADER}은(는) {TARGET}와(과) 전쟁 중이 아니라 공격할 수 없습니다." />
+    <string id="aiac_err_create_failed" text="{LEADER}: 군대 창설에 실패했습니다." />
+    <string id="aiac_err_timeout" text="군대 명령을 제시간에 시작하지 못해 취소되었습니다." />
+    <string id="aiac_err_exception" text="군대 명령 처리 중 오류가 발생했습니다. 로그를 확인하세요." />
+    <string id="aiac_done_capture" text="{LEADER}의 군대가 목표를 달성했습니다: {TARGET} 점령. 이후 자율적으로 움직입니다." />
+    <string id="aiac_done_time" text="{LEADER}의 군대가 {TARGET} {TYPE} 임무({DAYS}일)를 마쳤습니다. 이후 자율적으로 움직입니다." />
+    <string id="aiac_fail_collapsed" text="{LEADER}의 군대가 무너져 목표({TARGET})가 취소되었습니다." />
+    <string id="aiac_fail_peace" text="{TARGET}을(를) 둘러싼 전쟁이 끝나 {LEADER}의 공격 목표가 해제되었습니다." />
+    <string id="aiac_released" text="{LEADER}의 군대 목표 고정이 해제되었습니다. 이후 자율적으로 움직입니다." />
+    <string id="aiac_disbanded" text="{LEADER}이(가) 군대를 해산했습니다." />
+  </strings>
+</base>
